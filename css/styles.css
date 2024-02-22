@@ -12,8 +12,8 @@
  */
 :root {
   --bs-blue: #1e30f3;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
+  --bs-indigo: #34106e;
+  --bs-purple: #34156e;
   --bs-pink: #e21e80;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -3739,7 +3739,7 @@ textarea.form-control-lg {
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
-  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-font-size: 1.5rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-nav-link-padding-x: 0.5rem;
@@ -3774,7 +3774,7 @@ textarea.form-control-lg {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
+  font-size: 2em;
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
@@ -8121,7 +8121,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 .lh-1 {
@@ -11598,9 +11598,10 @@ html {
 .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
-  position: absolute;
+  position:relative;
   bottom: 0;
   left: 50%;
+  border-radius: 10px;
   transform: translateX(-50%);
 }
 .profile .dots-1 {
